@@ -1,0 +1,25 @@
+{
+  "name": "evom",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "postinstall": "yarn install",
+  "start": "yarn preview",
+  "dependencies": {
+    "chart.js": "^3.7.1",
+    "crypto-js": "^4.1.1",
+    "firebase": "^9.6.6",
+    "sass": "^1.49.7",
+    "vue": "^3.2.25",
+    "vue-router": "4",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.2.0",
+    "vite": "^2.8.0"
+  }
+}
