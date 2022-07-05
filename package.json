@@ -1,11 +1,13 @@
 {
   "name": "evom",
   "private": true,
-  "version": "0.0.0",
+  "version": "release-0.0.1",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "preinstall": "yarn install",
+    "start": "yarn preview"
   },
   "dependencies": {
     "chart.js": "^3.7.1",
