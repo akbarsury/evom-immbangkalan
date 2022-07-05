@@ -5,10 +5,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "yarn preview"
   },
-  "postinstall": "yarn install",
-  "start": "yarn preview",
   "dependencies": {
     "chart.js": "^3.7.1",
     "crypto-js": "^4.1.1",
